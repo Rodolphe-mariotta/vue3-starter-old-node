@@ -1,0 +1,39 @@
+# vue3-starter-old-node
+
+vue3-starter-old-node est un modèle pour des application vue3 tournant sur une version ancienne de Node >= 10
+
+## Installation
+
+Créer un project fils à partir de ce modèle.
+Cloner ce projet créer sur votre poste.
+
+```bash
+git clone git@url
+npm install
+```
+
+## Usage
+
+```bash
+# Démarrer le serveur web
+npm run serve
+```
+
+## Test
+
+Un exemple de tests unitaire est disponible dans le repertoire tests/unit/components/
+
+```bash
+npm run test:unit
+# Un problème avec watchman sur osx
+npm run test:unit -- --no-watchman
+```
+
+## Contribuer
+
+Les "Pull requests" sont les bienvenus. Pour les changements majeur merci d'ouvrir un ticket d'abord histoire de discuter du changement a aporter.
+
+Merci de mettre à jour/ajouter les tests unitaires.
+
+## License
+[GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
